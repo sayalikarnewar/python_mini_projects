@@ -1,0 +1,17 @@
+def factorial(n):
+	fact = 1
+	for i in range(1,n+1):
+		fact=fact*i
+	return fact
+
+
+n = int(input("enter total values"))
+r = int(input("enter taken"))
+
+npr =factorial(n)/(factorial(n-r))
+ncr = factorial(n)/((factorial(r))*(factorial(n-r)))
+
+print("permutation is:",npr)
+print("combination is:",ncr)
+
+
