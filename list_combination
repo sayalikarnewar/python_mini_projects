@@ -1,0 +1,7 @@
+ x,y,z = (int(input() for _ in range(3))
+list = []
+for i in range(0,x+1):
+    for j in range(0,y+1):
+        for k in range(0,z+1):
+           list.append([i,j,k])
+print(list)
