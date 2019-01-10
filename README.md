@@ -1,8 +1,1 @@
-# first
-python started
-again
-by
-the sudent 
-for 
-the student
-of sggs
+moving on to explore the field of machine learning
