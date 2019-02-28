@@ -1,0 +1,17 @@
+red = int(input("read red balls"))
+blue = int(input("read blue balls"))
+green = int(input("read green balls"))
+
+total = red + blue + green
+
+def comb(p,q):
+	def factorial(n):
+		fact = 1
+		for i in range(1,n+1):
+			fact = fact * i
+		return fact
+	combination = factorial(p)/(factorial(n-q)*factorial(q))
+	return combination
+
+prob = comb(blue,2)/(comb(total,2))
+print(comb)
